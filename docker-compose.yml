@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nginx-django:
+    build: .
+    container_name: 'app-web'
+    ports:
+      - 80:80
